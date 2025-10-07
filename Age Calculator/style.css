@@ -68,4 +68,49 @@
 #result span{
     color: #ffff;
 
+
+}
+@media (max-width: 768px) {
+    .calculator {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .calculator h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .input-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .input-box input {
+        margin: 0 0 15px 0;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+
+    .input-box button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+
+    #result {
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .calculator h1 {
+        font-size: 32px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
 }
